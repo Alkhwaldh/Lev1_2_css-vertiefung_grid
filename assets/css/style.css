@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  font-size: 2em;
+  color: rgb(221, 214, 228);
+  border-radius: 10px;
+  text-align:start;
+ 
+}
+section{
+  width: 100%;
+  height: 30%;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr ;
+  gap: 1em;
+
+  
+}
+.box1{
+  background: red;
+  grid-column: 1 / span 2;
+}
+.box2{
+  background:blue;
+  grid-column: 3 / span 4;
+
+  
+}
+.box3{
+  background: green;
+  grid-column: 1;
+  
+  
+}
+
+.box4 {
+  background: blueviolet;
+  grid-column: 2 / span 4;
+ 
+
+}
+.box5 {
+  background: yellow;
+  grid-column: 1 / span 5;
+ 
+}
+
+
+
